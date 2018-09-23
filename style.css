@@ -1,0 +1,151 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body, html {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+img {
+  max-width: 300px;
+  float: left;
+}
+#nav-bar {
+  position: fixed;
+  font-size: 18px;
+  overflow: auto;
+  float: right;
+  width: 100%;
+  background-color: #eee;
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+  }
+}
+#header-img {
+  padding-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#email {
+  width: 250px;
+}
+ol {
+ display: inline-block;
+ list-style-type: decimal;
+ list-style: none;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+ul li {
+  display: inline;
+  float: right;
+  list-style: none;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+#form-outer {
+  text-align: center;
+}
+.getstarted {
+  border-radius: 4px;
+  height: 40px;
+  width: 150px;
+  background: #f1c40f;
+  font-weight: 900;
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features {
+  display: flex;
+  padding-top: 5px;
+}
+.row {
+  display: flex;
+  max-width: 900px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+}
+.textbox {
+  background-color: #ddd;
+  padding: 15px 0;
+  font-weight: 800;
+}
+.trombone {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  width: 350px;
+  height: 300px;
+  }
+h2.desc, p {
+  margin: 0;
+}
+h2.price {
+  font-size: 24px;
+}
+#howitworks {
+  border: 2px solid black;
+}
+#select {
+  border-radius: 4px;
+  height: 40px;
+  width: 150px;
+  background: #f1c40f;
+  font-weight: 900;
+  font-size: 16px;
+  align-self: center;
+}
+h3 {
+  background: lightgray;
+  height: 50px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  background-color: #ddd;
+  margin: auto;
+  padding-bottom: 20px;
+}
+footer ul li {
+  padding: 0 10px;
+  text-align: center;
+}
+.footer-link {
+  font-size: 18px;
+}
+#copyright {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
