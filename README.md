@@ -1,4 +1,4 @@
-# Responsive Web Design Projects - Build a Product Landing-Page
+# Responsive Web Design Projects - Build a Product Landing Page
 ## I posted my final project to here as well: https://codepen.io/pwoz/pen/yxZQNG
 
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/RKRbwL
